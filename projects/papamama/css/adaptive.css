@@ -1,0 +1,97 @@
+@media screen and (max-width: 992px) {
+  .main-nav {
+    margin-top: 5px;
+  }
+  .main-nav-list {
+    margin-left: 0;
+  }
+  #example-generic .impressions-text {
+    padding: 0 10px
+  }
+  .technology-block {
+    padding: 15px 0
+  }
+  .technology-block .tech-item {
+    min-height: auto
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #header {
+    text-align: center;
+  }
+  #carousel-example-generic  h3 {
+    font-size: 22px;
+  }
+  #carousel-example-generic  .wrap-circle {
+  height: 215px;
+  width: 215px;
+  }
+  .features-item {
+    padding: 0 15px;
+  }
+  .features-title {
+    padding: 0 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .question-block {min-height: auto}
+  .question-block-title {
+    margin: 10px 0;
+  }
+  .question-block-btn {
+    text-align: center;
+  }
+  .question-btn {
+    margin-bottom: 10px;
+  }
+  .about {
+    padding-bottom: 10px;
+  }
+  .about-btn {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .about-title {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #carousel-example-generic {
+    display: none;
+  }
+  .list {
+    padding: 10px 0
+  }
+  .list-item-left>div,
+  .list-item-right>div {
+    display: flex;
+    align-items: center
+  }
+  .wrap-footer-btn {
+    text-align: center;
+  }
+  .footer {
+    padding: 15px 0
+  }
+  .arrow-up {
+    max-width: 40px;
+    position: relative;
+    top: 0;
+  }
+  .contacts .contacts-block {
+    position: static;
+    width: 100%;
+    margin: 0;
+  }
+  #map {
+    position: static;
+    height: 150px !important;
+  }
+  .footer-social-list {
+    text-align: center;
+  }
+}

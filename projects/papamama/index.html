@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Многопрофильный медицинский центр</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/mark.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="fancybox/jquery.fancybox.js"></script>
+    <script src="fancybox/jquery.fancybox.pack.js"></script>
+    <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/anchor.js"></script>
+    <script type="text/javascript" src="js/oneHeight.js"></script>
+
+    <!--яндекс карта  -->
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="js/icon_customImage.js" type="text/javascript"></script>
+    <style>
+        html, body, #map {
+            width: 100%; height: 100%; padding: 0; margin: 0;
+        }
+    </style>
+</head>
+
+<body class="custom-background custom-color-font">
+    <header class="container-fluid">
+      <div class="row">
+        <div class="header" id="header">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12">
+                <div class="header-logo">
+                  <a href="#">
+                    <img src="img/Logo.png" alt="logo">
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-2 col-md-offset-1 col-sm-3  col-xs-12">
+                <div class="header-lang">
+                  <div class="lang-btn">
+                    <a href="#"><img src="img/eng.png" alt=""></a>
+                  </div>
+                  <div class="lang-btn">
+                    <a href="#"><img src="img/deth.png" alt=""></a>
+                  </div>
+                  <div class="lang-btn">
+                    <a href="#"><img src="img/ir.png" alt=""></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-md-offset-3 col-sm-4 col-xs-12right ">
+                <div class="header-contacts">
+                  <a href="#" class="contacts-phone">7 (831) 412-90-29</a>
+                  <a href="#" class="contacts-phone">7 (831) 416-16-61</a>
+                  <a href="#fancy" class="fancybox btn header-contacts-btn">Заказать звонок</a>
+                </div>
+              </div>
+              <div class="col-md-8 col-md-offset-1 main-nav">
+                <ul class="main-nav-list">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link nav-link--active">О клинике</a></li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Акции</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Цены</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Иногородним</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Инфотека</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Контакты</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </header>
+    <section  class="container-fluid">
+        <div class="row">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item slide-1 active">
+                      <img src="img/slider-1.png" alt="">
+                          <div class="container">
+                            <div class="wrap-circle">
+                              <h3>Школа мам <br> <span> и ведение беременности</span></h3>
+                              <p><a href="#" class="btn">Записаться на приём</a></p>
+                            </div>
+                          </div>
+
+
+                    </div>
+                     <div class="item slide-2">
+                      <img src="img/slider-2.png" alt="">
+                      <div class="container">
+                       <div class="wrap-slide">
+                        <h3>ЭКО ПО ОМС <br> <span>и в кредит для всех регионов РФ</span></h3>
+                        <p><a href="#" class="btn">Записаться на приём</a></p>
+                        </div>
+                      </div>
+
+                    </div> 
+                     <div class="item slide-3">
+                      <img src="img/slider-3.png" alt="">
+                      <div class="container">
+                       <div class="wrap-slide">
+                        <h3>СТАНЬТЕ МАМОЙ,<br>
+                          <span>когда удобно: заморозьте свои яйцеклетки в криобанке</span>
+                        </h3>
+                        <p><a href="#" class="btn">Записаться на приём</a></p>
+                        </div>
+                      </div>
+
+                    </div> 
+                     <div class="item slide-4">
+                      <img src="img/slider-4.png" alt="">
+                      <div class="container">
+                      <div class="wrap-slide">
+    
+                          <h3>ОПЕРАЦИИ ПРИ
+                                КАТАРАКТЕ, ГЛАУКОМЕ <br>
+                                <span>и заболеваниях сетчатки
+                                по ОМС</span>
+
+                          </h3>
+                          <p><a href="#" class="btn">Записаться на приём</a></p>
+
+                        </div>
+                      </div>
+                    </div> 
+                     <div class="item slide-5">
+                      <img src="img/slider-5.png" alt="">
+                      <div class="container">
+                       <div class="wrap-slide">
+                        <h3>ЭКО<br> <span>с донорской яйцеклеткой
+                        и суррогатной мамой</span>
+                        </h3>
+                        <p><a href="#" class="btn">Записаться на приём</a></p>
+                      </div>
+                       </div>
+
+                    </div> 
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </section >
+    <section class="container-fluid" id="features">
+      <div class="row">
+        <div class="list container">
+          <div class="">
+              <div class="col-sm-6 list-item-left">
+                <div class="clearfix">
+                  <div class="col-sm-7 col-xs-9 col-sm-offset-3 item-desctiption">
+                    <h2>ЭКО/ИКСИ ЭКО</h2>
+                    <p>Преимплантационная диагностика эмбрионов. Донорские циклы. Бесплатно по ОМС для всех регионов </p>
+                </div>
+                  <div class="col-sm-2 col-xs-3">
+                    <img class="list-item-img" src="img/Icons/1-eko-iksi.svg" alt="">
+                </div>
+                </div>
+              </div>
+              <div class="col-sm-6 list-item-right">
+                <div class="clearfix">
+                  <div class="col-sm-2 col-xs-3 ">
+                    <img class="list-item-img" src="img/Icons/11-ginecology.svg" alt="">
+                  </div>
+                  <div class="col-sm-7 col-xs-9 item-desctiption">
+                      <h2>Гинекологические операции</h2>
+                      <p>Все виды операций. Офисная гистероскопия. Операции на яичниках без сокращения резерва яйцеклеток.</p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="clearfix"></div>
+
+              <div class="col-sm-6 list-item-left">
+                <div class="clearfix">
+                  <div class="col-sm-7 col-xs-9 col-sm-offset-3 item-desctiption">
+                    <h2>Искусственная инсеминация</h2>
+                    <p>Инсеминация спермой мужа и донора. Собственный банк спермы.</p>
+                </div>
+                  <div class="col-sm-2 col-xs-3">
+                    <img class="list-item-img" src="img/Icons/2-inseminatsyya.svg" alt="">
+                </div>
+                </div>
+              </div>
+              <div class="col-sm-6 list-item-right">
+                <div class="clearfix">
+                  <div class="col-sm-2 col-xs-3 ">
+                    <img class="list-item-img" src="img/Icons/12-oncology.svg" alt="">
+                  </div>
+                  <div class="col-sm-7 col-xs-9 item-desctiption">
+                      <h2>Онкология-маммология</h2>
+                      <p>Тонкоигольная биопсия молочной и щитовидной желез.</p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="clearfix"></div>
+
+              <div class="col-sm-6 list-item-left">
+                <div class="clearfix">
+                  <div class="col-sm-7 col-xs-9 col-sm-offset-3 item-desctiption">
+                    <h2>Андрология</h2>
+                    <p>Лечение мужского бесплодия, все анализы. Биопсия яичек.</p>
+                </div>
+                  <div class="col-sm-2 col-xs-3">
+                    <img class="list-item-img" src="img/Icons/3-andrology.svg" alt="">
+                </div>
+                </div>
+              </div>
+              <div class="col-sm-6 list-item-right">
+                <div class="clearfix">
+                  <div class="col-sm-2 col-xs-3 ">
+                    <img class="list-item-img" src="img/Icons/13-endo.svg" alt="">
+                  </div>
+                  <div class="col-sm-7 col-xs-9 item-desctiption">
+                      <h2>Эндокринология</h2>
+                        <p>Прием эндокринолога и диетолога. Безопасное лечение ожирения.</p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              
+              <div class="col-sm-6 list-item-left">
+                <div class="clearfix">
+                  <div class="col-sm-7 col-xs-9 col-sm-offset-3 item-desctiption">
+                    <h2>Генетика</h2>
+                    <p>Все виды исследований будущих родителей и эмбрионов.</p>
+
+                </div>
+                  <div class="col-sm-2 col-xs-3">
+                    <img class="list-item-img" src="img/Icons/4-genetika.svg" alt="">
+                </div>
+                </div>
+              </div>
+              <div class="col-sm-6 list-item-right">
+                <div class="clearfix">
+                  <div class="col-sm-2 col-xs-3 ">
+                    <img class="list-item-img" src="img/Icons/14-gastro.svg" alt="">
+                  </div>
+                  <div class="col-sm-7 col-xs-9 item-desctiption">
+                    <h2>Гастроэнтерология</h2>
+                    <p>Прием специалистов и все виды анализов.</p>
+
+                  </div>
+
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              
+              <div class="col-sm-6 list-item-left">
+                <div class="clearfix">
+                  <div class="col-sm-7 col-xs-9 col-sm-offset-3 item-desctiption">
+                    <h2>Лечение бесплодия</h2>
+                    <p>Клиника лечения бесплодия полного цикла.</p>
+
+                </div>
+                  <div class="col-sm-2 col-xs-3">
+                    <img class="list-item-img" src="img/Icons/5-besplodie.svg" alt="">
+                </div>
+                </div>
+              </div>
+              <div class="col-sm-6 list-item-right">
+                <div class="clearfix">
+                  <div class="col-sm-2 col-xs-3 ">
+                    <img class="list-item-img" src="img/Icons/15-cardio.svg" alt="">
+                  </div>
+                  <div class="col-sm-7 col-xs-9 item-desctiption">
+                    <h2>Кардиология</h2>
+                    <p>Суточное мониторирование давления и ЭКГ.</p>
+
+                  </div>
+
+                </div>
+              </div>
+              <div class="clearfix"></div>
+
+              <div class="col-sm-6 list-item-left">
+                <div class="clearfix">
+                  <div class="col-sm-7 col-xs-9 col-sm-offset-3 item-desctiption">
+                    <h2>Все виды обследования при бесплодии</h2>
+                    <p>От общего анализа крови до сложнейших генетических паспортов.</p>
+
+                </div>
+                  <div class="col-sm-2 col-xs-3">
+                    <img class="list-item-img" src="img/Icons/6-obsledovaniya.svg" alt="">
+                </div>
+                </div>
+              </div>
+              <div class="col-sm-6 list-item-right">
+                <div class="clearfix">
+                  <div class="col-sm-2 col-xs-3 ">
+                    <img class="list-item-img" src="img/Icons/16-nevrologiya.svg" alt="">
+                  </div>
+                  <div class="col-sm-7 col-xs-9 item-desctiption">
+                    <h2>Неврология и реабилитация</h2>
+                    <p>Остеопатия. Иглорефлексотерапия и лечение пиявками. ЛФК.</p>
+
+                  </div>
+
+                </div>
+              </div>
+              <div class="clearfix"></div>
+
+              <div class="col-sm-6 list-item-left">
+                <div class="clearfix">
+                  <div class="col-sm-7 col-xs-9 col-sm-offset-3 item-desctiption">
+                    <h2>Клиника лечения шейки матки</h2>
+                    <p>Прием и операции у кандидатов медицинских наук, специализирующихся на данной теме.</p>
+                </div>
+                  <div class="col-sm-2 col-xs-3">
+                    <img class="list-item-img" src="img/Icons/7-sheyka.svg" alt="">
+                </div>
+                </div>
+              </div>
+              <div class="col-sm-6 list-item-right">
+                <div class="clearfix">
+                  <div class="col-sm-2 col-xs-3 ">
+                    <img class="list-item-img" src="img/Icons/17-oftalmology.svg" alt="">
+                  </div>
+                  <div class="col-sm-7 col-xs-9 item-desctiption">
+                    <h2>Офтальмология</h2>
+                    <p>Микрохирургия глаза. Операции по полису ОМС для всех регионов страны.</p>
+
+                  </div>
+
+                </div>
+              </div>
+              <div class="clearfix"></div>
+                
+              <div class="col-sm-6 list-item-left">
+                <div class="clearfix">
+                  <div class="col-sm-7 col-xs-9 col-sm-offset-3 item-desctiption">
+                    <h2>Ведение беременности</h2>
+                    <p>Ведение сложных беременностей, приемы всех необходимых специалистов.</p>
+
+                </div>
+                  <div class="col-sm-2 col-xs-3">
+                    <img class="list-item-img" src="img/Icons/8-vedenie.svg" alt="">
+                </div>
+                </div>
+              </div>
+              <div class="col-sm-6 list-item-right">
+                <div class="clearfix">
+                  <div class="col-sm-2 col-xs-3 ">
+                    <img class="list-item-img" src="img/Icons/18-lor.svg" alt="">
+                  </div>
+                  <div class="col-sm-7 col-xs-9 item-desctiption">
+                    <h2>Отоларингология (ЛОР)</h2>
+                    <p>Прием врача, ЛОР операции в сети клиник.</p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="clearfix"></div>
+
+              <div class="col-sm-6 list-item-left">
+                <div class="clearfix">
+                  <div class="col-sm-7 col-xs-9 col-sm-offset-3 item-desctiption">
+                    <h2>Школа мам</h2>
+                    <p>Врачи акушеры-гинекологи, педиатры и психологи подробно расскажут Вам о течении беременности.</p>
+                </div>
+                  <div class="col-sm-2 col-xs-3">
+                    <img class="list-item-img" src="img/Icons/9-shkola-mam.svg" alt="">
+                </div>
+                </div>
+              </div>
+              <div class="col-sm-6 list-item-right">
+                <div class="clearfix">
+                  <div class="col-sm-2 col-xs-3 ">
+                    <img class="list-item-img" src="img/Icons/19-uzi.svg" alt="">
+                  </div>
+                  <div class="col-sm-7 col-xs-9 item-desctiption">
+                    <h2>УЗИ-диагностика</h2>
+                    <p>Все виды исследований для детей и взрослых.</p>
+
+                  </div>
+
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              
+              <div class="col-sm-6 list-item-left">
+                <div class="clearfix">
+                  <div class="col-sm-7 col-xs-9 col-sm-offset-3 item-desctiption">
+                    <h2>Криобанк</h2>
+                    <p>Банк яйцеклеток и спермы. Доставка по всей России. Заморозка собственных яйцеклеток.</p>
+
+                </div>
+                  <div class="col-sm-2 col-xs-3">
+                    <img class="list-item-img" src="img/Icons/10-cryobank.svg" alt="">
+                </div>
+                </div>
+              </div>
+              <div class="col-sm-6 list-item-right">
+                <div class="clearfix">
+                  <div class="col-sm-2 col-xs-3 ">
+                    <img class="list-item-img" src="img/Icons/20-rentgen.svg" alt="">
+                  </div>
+                  <div class="col-sm-7 col-xs-9 item-desctiption">
+                    <h2>Рентген</h2>
+                    <p>Все виды исследований.</p>
+
+                  </div>
+
+                </div>
+              </div>
+              <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+
+<!--
+<h2>ЭКО/ИКСИ ЭКО</h2>
+<p>Преимплантационная диагностика эмбрионов. Донорские циклы. Бесплатно по ОМС для всех регионов </p>
+
+<h2>Искусственная инсеминация</h2>
+<p>Инсеминация спермой мужа и донора. Собственный банк спермы.</p>
+
+<h2>Андрология</h2>
+<p>Лечение мужского бесплодия, все анализы. Биопсия яичек.</p>
+
+<h2>Генетика</h2>
+<p>Все виды исследований будущих родителей и эмбрионов.</p>
+
+<h2>Лечение бесплодия</h2>
+<p>Клиника лечения бесплодия полного цикла.</p>
+
+<h2>Все виды обследования при бесплодии</h2>
+<p>От общего анализа крови до сложнейших генетических паспортов.</p>
+
+<h2>Клиника лечения шейки матки</h2>
+<p>Прием и операции у кандидатов медицинских наук, специализирующихся на данной теме.</p>
+
+<h2>Ведение беременности</h2>
+<p>Ведение сложных беременностей, приемы всех необходимых специалистов.</p>
+
+<h2>Школа мам</h2>
+<p>Врачи акушеры-гинекологи, педиатры и психологи подробно расскажут Вам о течении беременности.</p>
+
+<h2>Криобанк</h2>
+<p>Банк яйцеклеток и спермы. Доставка по всей России. Заморозка собственных яйцеклеток.</p>
+
+ -->
+        <!--
+        <h2>Гинекологические операции</h2>
+<p>Все виды операций. Офисная гистероскопия. Операции на яичниках без сокращения резерва яйцеклеток.</p>
+
+<h2>Онкология-маммология</h2>
+<p>Тонкоигольная биопсия молочной и щитовидной желез.</p>
+
+<h2>Эндокринология</h2>
+<p>Прием эндокринолога и диетолога. Безопасное лечение ожирения.</p>
+
+<h2>Гастроэнтерология</h2>
+<p>Прием специалистов и все виды анализов.</p>
+
+<h2>Кардиология</h2>
+<p>Суточное мониторирование давления и ЭКГ.</p>
+
+<h2>Неврология и реабилитация</h2>
+<p>Остеопатия. Иглорефлексотерапия и лечение пиявками. ЛФК.</p>
+
+<h2>Офтальмология</h2>
+<p>Микрохирургия глаза. Операции по полису ОМС для всех регионов страны.</p>
+
+<h2>Отоларингология (ЛОР)</h2>
+<p>Прием врача, ЛОР операции в сети клиник.</p>
+
+<h2>УЗИ-диагностика</h2>
+<p>Все виды исследований для детей и взрослых.</p>
+
+<h2>Рентген</h2>
+<p>Все виды исследований.</p>
+        -->
+
+                    </section>
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="question-block">
+                <div class="question-block-fon"></div>
+                  <div class="container">
+                    <h2 class="question-block-title">Уважаемый посетитель, <br> <span class="cb-title-text">наши специалисты готовы оперативно ответить на любой интересующий Вас вопрос</span></h2>
+                    <div class="question-block-btn">
+                      <a href="#" class="question-btn btn">записаться на прием</a>
+                      <a href="#" class="question-btn btn">онлайн консультация</a>
+                      <a href="#" class="question-btn btn btn-long">вопрос врачу</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+      <div class="row">
+        <div class="about">
+          <div class="container">
+             <div class="row">
+             <div class="col-xs-12 col-md-10 col-md-offset-1">
+              <h2 class="about-title">Медицинский центр «Папа, мама и малыш» — <br>
+                клиника ЭКО в Нижнем Новгороде</h2>
+                <p class="about-description">
+                  Наша клиника ЭКО в Нижнем Новгороде занимается точной диагностикой и лечением всех видов мужского и женского бесплодия. Мы выполняем все виды гинекологических, урологических операций, проводим все виды ЭКО программ с отличными результатами, делая ежегодно
+                  тысячи пар счастливыми родителями.</p>
+
+                <p class="about-description">
+                  В 2014 году мы прошли международную сертификацию ISO, доказав высокий уровень оказываемых медицинских услуг. Каждый день мы радуемся нашим результатам, а рождения наших малышей мы ждем как своих!
+                </p>
+              <div class="about-link-block">
+                <a class="about-link" href="#">Подробнее о клинике ></a>
+              </div>
+              <div class="about-btn-block">
+                <a href="#" class="btn about-btn">
+                  ВСЁ ОБ ЭКО
+                </a>
+                <a href="#" class="btn about-btn">
+                  ЭКО БЕСПЛАТНО ПО ОМС
+                </a>
+              </div>
+              </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="container-fluid">
+      <div class="row">
+        <div class="advansed-features">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 features-item">
+                  <h2 class="features-title">НОВЕЙШИЕ МЕТОДИКИ</h2>
+                  <p class="features-description">Врачи, ведущие прием, обучены в Нидерландах, Германии, Португалии Арабских Эмиратах. Мы работаем в рамках Европейских и Российских стандартов.</p>
+                </div>
+                <div class="col-md-6 features-item">
+                  <h2 class="features-title">Собственный криобанк</h2>
+                  <p class="features-description">У нас свой собственный криобанк яйцеклеток и спермы, то есть Вам не нужно ждать донора, клетки уже у нас в банке. Имеется база обследованных доноров яйцеклеток для «свежих» циклов.</p>
+                </div>
+                <div class="col-md-6 features-item">
+                  <h2 class="features-title">На шаг впереди</h2>
+                  <p class="features-description">Будущее за инновациями: эмбриоблок оснащен самым современным на сегодняшний день оборудованием. Мы проводим ВСЕ самые инновационные методики в области ЭКО. Не нужно ехать на ЭКО в другой город или заграницу.</p>
+                </div>
+                <div class="col-md-6 features-item">
+                  <h2 class="features-title">Приоритет безопасности</h2>
+                  <p class="features-description">Мы не делаем ЭКО, если пара может забеременнеть самостоятельно. Выполняем безопасные схемы стимуляции в ЭКО.</p>
+                </div>
+                <div class="col-md-6 features-item">
+                  <h2 class="features-title">Уникальные исследования</h2>
+                  <p class="features-description">Мы проводим уникальное исследование ПГД (Преимплантационную генетическую диагностику), когда в семье есть старший большой ребенок или в паре было уже много попыток ЭКО при бесплодии неясного генеза. Все виды генетических исследований.</p>
+                </div>
+                <div class="col-md-6 features-item">
+                  <h2 class="features-title">Лечение сложных форм мужского бесплодия</h2>
+                  <p class="features-description">Мы занимаемся лечением самых сложных форм мужского бесплодия. Проводятся такие исследования, как исследование ДНК-фрагментации сперматозоидов (TUNEL) и электронная микроскопия спермы. Биопсия яичка TESA выполняется не только с
+                    диагностической целью, но и в цикле ЭКО для получения беременности. Проведение микро - TESE.</p>
+                  </div>
+                </div>
+              <a href="#call-block" class="arrow-down">
+                <img src="img/arrow-down.png" alt="">
+              </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid">
+      <div class="row">
+        <div class="call-block" id="call-block">
+            <div class="call-block-fon"></div>
+            <div class="container">
+              <h2 class="call-block-title">
+              ЛУЧШИЕ СПЕЦИАЛИСТЫ ГОТОВЫ ВАМ ПОМОЧЬ
+            </h2>
+            <form class="call-block-form" action="#" method="post">
+                <p>
+                    <label class="form-label" for="name">
+                Ваше имя
+              </label>
+                    <input class="form-input" type="text" id="name" placeholder="Ваше имя">
+                </p>
+                <p>
+                    <label class="form-label" for="tel-user">
+               Ваш телефон
+              </label>
+                    <input class="form-input" id="tel-user" type="tel" placeholder="+7 (___) ___-____">
+                </p>
+                <p>
+                    <input class="form-btn btn" type="submit" value="Записаться">
+                </p>
+            </form>
+            <h2>  О нас говорят</h2>
+            <div id="example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+            <li data-target="#example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#example-generic" data-slide-to="1"></li>
+            <li data-target="#example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item item-group active">
+                <p class="impressions-text">Хочу выразить благодарность Холодову Д.В. за возможность радоваться каждому дню, за новые ощущения при наступлении беременности, за внимательное, высокопрофессиональное, позитивное отношение к пациентам. Эко было в мае 2016 года по ОМС (квота из Пензы). Низкий вам поклон и удачи в работе!</p>
+                <p class="author"> Елена</p>
+
+              </div>
+              <div class="item item-group">
+                <p class="impressions-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quidem reiciendis distinctio voluptatem praesentium unde, perferendis repellendus quo accusamus aut.</p>
+                <p class="author"> Иван</p>
+
+              </div>
+
+              <div class="item item-group">
+                <p class="impressions-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quidem reiciendis distinctio voluptatem praesentium unde, perferendis repellendus quo accusamus aut.</p>
+                <p class="author"> Олег</p>
+  
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            </div>
+
+
+
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid">
+      <div class="row">
+        <div class="technology-block">
+            <div class="container">
+
+                    <h2 class="technology-block-title">УНИКАЛЬНЫЕ ТЕХНОЛОГИИ И КОМФОРТНЫЕ УСЛОВИЯ</h2>
+                    <div class="row">
+                      <div class="col-sm-4 tech-item res">
+                         <video width="100%" height="auto" controls="controls" poster="video/poster.jpg">
+                         <source src="video/academia.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                        </video>
+                      </div>
+                      <div class="col-sm-4 tech-item res">
+                        <video width="100%" height="auto" controls="controls" poster="video/poster.jpg">
+                        <source src="video/academia.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                       </video>
+                      </div>
+                      <div class="col-sm-4 tech-item res">
+                        <video width="100%" height="auto" controls="controls" poster="video/poster.jpg">
+                        <source src="video/academia.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                       </video>
+                      </div>
+                      <div class="col-sm-4 tech-item res">
+                        <a id="tech-item-img" class="tech-item-img" href="video/poster.JPG"><img src="video/poster.JPG" width="100" height="100" alt=""/></a>
+                      </div>
+                      <div class="col-sm-4 tech-item res">
+                        <a class="tech-item-img" href="video/poster.JPG"><img src="video/poster.JPG" width="100" height="100" alt=""/></a>
+                      </div>
+                      <div class="col-sm-4 tech-item res">
+                        <a class="tech-item-img" href="video/poster.JPG"><img src="video/poster.JPG" width="100" height="100" alt=""/></a>
+                      </div>
+                    </div>
+                    <p class="technology-desription">
+                      ООО "Академия женского здоровья и репродукции человека" Лицензия на осуществление медицинской деятельности № ЛО-52-01-005500 от 11.08.2016, выданная министерством здравоохранения Нижегородской области
+                    </p>
+
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid">
+      <div class="row">
+        <div class="contacts">            
+            <div class="container">
+               <div class="row">
+               
+                <div class="contacts-block">
+                    <p>Наш адрес: <br> г. Н. Новгород,<br> ул. М. Горького, д. 195
+                    </p>
+                    <p>
+                        НАШИ ТЕЛЕФОНЫ <br>
+                        <a href="#" class="contacts-tel">+7 (831) 412-90-29</a>,
+                        <a href="#" class="contacts-tel">+7 (831) 416-16-61</a>
+                    </p>
+                </div>
+                
+                </div>
+            </div>
+            <div id="map"></div>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="footer">
+          <div class="container">
+            <a href="#header" class="arrow-up">
+              <img src="img/arrow-up.svg" alt="arrow-up">
+            </a>
+            <div class="row">
+              <div class="col-md-4">
+                <ul class="footer-list">
+                  <li class="footer-item"><a class="footer-link" href="#">Оплата онлайн</a></li>
+                  <li class="footer-item"><a class="footer-link" href="#">Стать суррогатной мамой</a></li>
+                  <li class="footer-item"><a class="footer-link" href="#">Стать донором яйцеклеток/спермы</a></li>
+                  <li class="footer-item"><a class="footer-link" href="#">Перевозка эмбрионов в нашу клинику   </a></li>
+                  <li class="footer-item"><a class="footer-link" href="#">Блог</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 col-md-offset-4">
+                <ul class="footer-social-list">
+                  <li class="social-item"><a href="#" class="social-link"><img src="img/fb-ico.png" alt=""> fb</a></li>
+                  <li class="social-item"><a href="#" class="social-link"><img src="img/g+-ico.png" alt=""> g+</a></li>
+                  <li class="social-item"><a href="#" class="social-link"><img src="img/vk-ico.png" alt=""> vk</a></li>
+                  <li class="social-item"><a href="#" class="social-link"><img src="img/inst-ico.png" alt=""> ins</a></li>
+                  <li class="social-item"><a href="#" class="social-link"><img src="img/you-ico.png" alt=""> you</a></li>
+
+                </ul>
+                <div class="wrap-footer-btn">
+                  <a href="#fancy" class="fancybox footer-btn btn">Заказать звонок</a>
+                  <div id="fancy" style="display:none;">
+                    <div role="form"  lang="ru-RU" >
+                        <form action="#" method="post" id="call-form">
+                            <p>
+
+                                <input type="text" name="your-name" value="" size="40"  placeholder="Ваше имя:">
+
+                              <br>
+
+                                <input type="tel"  value="" size="40" placeholder="Ваш телефон:">
+
+                              <br>
+                              <input class="btn form-btn" type="submit" value="Отправить">
+                            </p>
+                        </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="copyrigth">
+              Многопрофильный медицинский центр «Папа, мама и малыш» <br>2012-2016 гг.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+</body>
+
+</html>

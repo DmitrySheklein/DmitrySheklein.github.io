@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #631241;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+        opacity: 0.54;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="32" cy="32" r="32"/>
+  <path id="Стрелка_вверх" data-name="Стрелка вверх" class="cls-2" d="M514.8,4434.01v-27.18l11.2,10.28v-7.27l-14-12.85-14,12.85v7.27l11.2-10.28v27.18h5.6Z" transform="translate(-480 -4383)"/>
+</svg>

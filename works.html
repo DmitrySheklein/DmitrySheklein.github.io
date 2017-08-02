@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Мои работы</title>
-    <meta content="#{author}" name="author">
-    <meta content="#{description}" name="description">
-    <meta content="#{keywords}" name="keywords">
+    <meta content="Scheklein Dmitiriy, Щеклеин Дмитрий" name="author">
+    <meta content="Портфолио HTML-верстальщик" name="description">
+    <meta content="портфолио, сайт разработчик, создание сайта,верстка" name="keywords">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <link rel="stylesheet" href="assets/css/foundation.css">
@@ -19,9 +19,9 @@
   <body>
     <nav class="main-menu">
       <ul class="main-menu__list">
-        <li class="main-menu__item"><a class="main-menu__link Мои работы" href="/">Главная</a></li>
-        <li class="main-menu__item"><a class="main-menu__link Мои работы" href="works.html">Мои работы</a></li>
-        <li class="main-menu__item"><a class="main-menu__link Мои работы" href="about.html">Обо мне</a></li>
+        <li class="main-menu__item"><a class="main-menu__link" title="Главная" href="/">Главная</a></li>
+        <li class="main-menu__item"><a class="main-menu__link" title="Мои работы" href="works.html">Мои работы</a></li>
+        <li class="main-menu__item"><a class="main-menu__link" title="Обо мне" href="about.html">Обо мне</a></li>
       </ul>
     </nav>
     <div class="wrapper">
@@ -57,40 +57,28 @@
         </div>
       </header>
       <section class="portfolio-slider" id="slider">
-        <div class="portfolio-slider__module portfolio-slider__preview"><img src="assets/img/slider/smitler.png" alt=""></div>
+        <div class="portfolio-slider__module portfolio-slider__preview">           <img src="assets/img/slider/smitler.png" alt=""></div>
         <div class="portfolio-slider__module portfolio-slider__projects">
           <div class="portfolio-slider__projects__container">
             <div class="project-item project-item__active">
-              <h3 class="project-item__title sidestripes">Салон красоты "Smitler"</h3>
-              <div class="project-item__descr">Html,sass,jquery,gulp</div><a class="project-item__link" href="#" target="_blank">Посмотреть</a>
+              <h3 class="project-item__title sidestripes">Салон красоты 'Smitler'</h3>
+              <div class="project-item__descr">Html,sass,jquery,gulp</div><a class="project-item__link" href="/projects/smitler/index.html" target="_blank">Посмотреть                </a>
             </div>
             <div class="project-item">
               <h3 class="project-item__title sidestripes">Кабриолетнапрокат.рф</h3>
-              <div class="project-item__descr">Bootstrap 4,jquery, Wordpress</div><a class="project-item__link" href="#" target="_blank">Посмотреть</a>
+              <div class="project-item__descr">Bootstrap 4,jquery, Wordpress</div><a class="project-item__link" href="http://кабриолетнапрокат.рф/" target="_blank">Посмотреть</a>
             </div>
             <div class="project-item">
-              <h3 class="project-item__title sidestripes"> Верстка главной страницы <br> "Папа, мама и малыш"</h3>
-              <div class="project-item__descr">Bootstrap 3,CSS,jquery</div><a class="project-item__link" href="#" target="_blank">Посмотреть</a>
+              <h3 class="project-item__title sidestripes">Верстка главной страницы  Папа, мама и малыш'</h3>
+              <div class="project-item__descr">Bootstrap 3,CSS,jquery</div><a class="project-item__link" href="/projects/papamama/index.html" target="_blank">Посмотреть</a>
             </div>
             <div class="project-item">
-              <h3 class="project-item__title sidestripes">Верстка сайта "Центр правовой защиты"</h3>
-              <div class="project-item__descr">Bootstrap 3,CSS,jquery</div><a class="project-item__link" href="#" target="_blank">Посмотреть</a>
+              <h3 class="project-item__title sidestripes">Верстка сайта 'Центр правовой защиты'</h3>
+              <div class="project-item__descr">Bootstrap 3,CSS,jquery</div><a class="project-item__link" href="/projects/pravozakonie/index.html" target="_blank">Посмотреть</a>
             </div>
             <div class="project-item">
-              <h3 class="project-item__title sidestripes">Учебный проект "Nerds"</h3>
-              <div class="project-item__descr">HTML,Css,Javascript</div><a class="project-item__link" href="#" target="_blank">Посмотреть</a>
-            </div>
-            <div class="project-item">
-              <h3 class="project-item__title sidestripes">Учебный проект "Glaccy"</h3>
-              <div class="project-item__descr">HTML,Css,Javascript</div><a class="project-item__link" href="#" target="_blank">Посмотреть</a>
-            </div>
-            <div class="project-item">
-              <h3 class="project-item__title sidestripes">Учебный проект "Барбершоп"</h3>
-              <div class="project-item__descr">HTML,Css,Javascript</div><a class="project-item__link" href="#" target="_blank">Посмотреть</a>
-            </div>
-            <div class="project-item">
-              <h3 class="project-item__title sidestripes">Учебный проект "Техномарт"</h3>
-              <div class="project-item__descr">HTML,Css,Javascript</div><a class="project-item__link" href="#" target="_blank">Посмотреть</a>
+              <h3 class="project-item__title sidestripes">Учебный проект 'Glaccy'</h3>
+              <div class="project-item__descr">HTML,Css,Javascript</div><a class="project-item__link" href="/projects/gllacy/index.html" target="_blank">Посмотреть</a>
             </div>
           </div>
         </div>
@@ -98,27 +86,21 @@
           <div class="navigation-block navigation-block_prev">
             <button class="portfolio-btn portfolio-btn__prev"><i class="fa fa-chevron-down"></i></button>
             <div class="portfolio-thumbnails">
-              <div class="portfolio-thumbnail"><img src="assets/img/slider/smitler.png" alt="1"></div>
-              <div class="portfolio-thumbnail"><img src="assets/img/slider/cabrio.png" alt="2"></div>
-              <div class="portfolio-thumbnail"><img src="assets/img/slider/papamama.png" alt="3"></div>
-              <div class="portfolio-thumbnail"><img src="assets/img/slider/lawyer.png" alt="4"></div>
-              <div class="portfolio-thumbnail"><img src="assets/img/slider/nerds.png" alt="5"></div>
-              <div class="portfolio-thumbnail"><img src="assets/img/slider/gllacy.png" alt="6"></div>
-              <div class="portfolio-thumbnail"><img src="assets/img/slider/barber.png" alt="7"></div>
-              <div class="portfolio-thumbnail active"><img src="assets/img/slider/technomart.png" alt="8"></div>
+              <div class="portfolio-thumbnail"><img src="assets/img/slider/smitler.png" alt=""></div>
+              <div class="portfolio-thumbnail"><img src="assets/img/slider/cabrio.png" alt=""></div>
+              <div class="portfolio-thumbnail"><img src="assets/img/slider/papamama.png" alt=""></div>
+              <div class="portfolio-thumbnail"><img src="assets/img/slider/lawyer.png" alt=""></div>
+              <div class="portfolio-thumbnail active"><img src="assets/img/slider/gllacy.png" alt=""></div>
             </div>
           </div>
           <div class="navigation-block navigation-block_next">
             <button class="portfolio-btn portfolio-btn__next"><i class="fa fa-chevron-up"></i></button>
             <div class="portfolio-thumbnails">
-              <div class="portfolio-thumbnail"><img src="assets/img/slider/smitler.png" alt="1"></div>
-              <div class="portfolio-thumbnail active"><img src="assets/img/slider/cabrio.png" alt="2"></div>
-              <div class="portfolio-thumbnail"><img src="assets/img/slider/papamama.png" alt="3"></div>
-              <div class="portfolio-thumbnail"><img src="assets/img/slider/lawyer.png" alt="4"></div>
-              <div class="portfolio-thumbnail"><img src="assets/img/slider/nerds.png" alt="5"></div>
-              <div class="portfolio-thumbnail"><img src="assets/img/slider/gllacy.png" alt="6"></div>
-              <div class="portfolio-thumbnail"><img src="assets/img/slider/barber.png" alt="7"></div>
-              <div class="portfolio-thumbnail"><img src="assets/img/slider/technomart.png" alt="7"></div>
+              <div class="portfolio-thumbnail"><img src="assets/img/slider/smitler.png" alt=""></div>
+              <div class="portfolio-thumbnail active"><img src="assets/img/slider/cabrio.png" alt=""></div>
+              <div class="portfolio-thumbnail"><img src="assets/img/slider/papamama.png" alt=""></div>
+              <div class="portfolio-thumbnail"><img src="assets/img/slider/lawyer.png" alt=""></div>
+              <div class="portfolio-thumbnail"><img src="assets/img/slider/gllacy.png" alt=""></div>
             </div>
           </div>
         </div>

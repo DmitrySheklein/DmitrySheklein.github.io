@@ -1,0 +1,50 @@
+<svg id="ведение_беременности" data-name="ведение беременности" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78.22" height="78.22" viewBox="0 0 78.22 78.22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #d95397;
+      }
+
+      .cls-3 {
+        stroke: #d95397;
+        stroke-width: 1px;
+      }
+
+      .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #1c9cad;
+        stroke-width: 4px;
+      }
+
+      .cls-5 {
+        fill: #1c9cad;
+      }
+
+      .cls-6 {
+        stroke: #7e2559;
+        stroke-width: 1.22px;
+      }
+    </style>
+  </defs>
+  <image id="Слой_2" data-name="Слой 2" x="23.61" y="8.61" width="39" height="61" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAA9CAMAAAAZMID6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACc1BMVEUAAADaU5jaU5jaVJjZU5faVJjZU5fZU5fZU5fZU5fZU5faU5jZU5fZU5fZU5faU5jaU5jaVJjaVJjZU5faVJjZU5faU5jZU5faVJjaU5jZU5faVJjZVJfaU5jaVJjZU5fZVJfaU5jZU5faU5jZU5faU5jaVJjaVJjZU5faVJjaVJjaVJjaVJjaVJjZU5faVJjaU5jZU5faVJjZU5fZU5fZU5fZU5faU5jZU5faU5jZU5faVJjZU5faU5faU5faVJjaU5jaVJjaU5jZU5fZVJfaU5jaU5jaU5jZU5fZU5faU5jaU5jaU5faU5jaU5jZU5faU5jZU5faU5jZU5fZU5fZU5jaVJjZU5jZU5fZU5fZU5fZU5faVJjaVJjZVJfaVJjaVJjaU5jaU5jZU5faVJjaU5jaU5jaVJjZU5faVJjaU5fZVJfZU5fZU5fZU5faVJjZU5jZU5faU5jaU5fZVJfaVJjZVJjZU5fZU5fZU5faVJjZU5fZU5fZU5fZU5faU5jaU5jZU5fZU5fZU5faU5jZVJfZU5faU5jZU5faVJjZU5faU5jaVJjaVJjZU5fZU5fZU5fZU5faU5jaU5faU5jaU5jZU5faU5faU5jZU5faU5faU5jZVJfZVJfaU5jZU5faU5jZU5faU5faU5jZU5fZU5faVJjZU5fZU5faU5jaVJjaU5jaU5fZU5faU5jZU5faU5jaU5jZU5faVJjaVJjaU5jaVJjaU5jZVJfaVJjZU5faU5fZU5faU5jaVJjaU5jZU5faU5jZU5faVJjaU5jZU5fZU5faU5jZU5faU5jaU5fZVJfaVJjZU5jaVJfZVJgAAADcijvtAAAAyHRSTlMAAxUmQFlwlGACBS5llbvX8csiGnDE9uojFHXhjGVFLvn8Mh/zRDL8gU3iHWvDF47QNKpeAcKQDgjRvyQS2eI+GN7pPhXd3yLSpQG374ZGRP1CD9joJovMchYv9d1qBzNG++pWxmtg/mkX4/dIotsTX4gv9+0h5XYL3LsJEOHv/lVDgHMJzWtO/lUGyep07n6+8SeMGebUFHftNgbP4D819yb2hQqzyuOZjgeVXCO8Ywhy5SDnhx5z+slcGcjb5Ojm3tW+oHhOCvkPVpUAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAEBElEQVRIx3WViaMVcxTHrwopksRLlgolS8qu7NlKRbKVNdkllC2kEKEsSYhKtpKlbNn3Us45vzNz/yXne87MfffOezPz5r377nzmrN9zptFoHXv16dtv73327b9fo/4YMHD/AwYdOJiIDxpSTx089JBDiUgocdewWuqw4YcbRMyiREfUWzsyATNGVemoem7ESGJjiDOiUUfXc8ccSxLWmHh0PTfmOLYU2GxSrmPrueMNopTAEp1wYi13ErGyZCRiHI87uY4bT5QxaqfIhiacUsOdyhabefXSmO2u03rFTj/DvBEn5NEUM5nnZ57VC3f2RKucmEk/zabBk87pyZ17Hvmh7H1hy4b5/At6cBdeJAl2tGkoaXJB0OSLq9wll7ImuGU4VYvBgtB02eXV+KaYL/dInraqebZGTr2iAk6Dn+gbjHKES9OrucyAQCkVHEodx5UV7qpAYNMkg955yWdeXeFmXcOUgWCXqyLcnPXa66oZXw8bSsFBsoLnZt4we04nd+NNLmdoUJnCryDOm2+5tVMJycNiz0LJWaGmVWnQbe3c3NutZxyl4fDPBTzvjjZuwJ1mBhGizF51xcRgVGnUXW3g3VFfJfFcUB0bPgygNu+5t5u77/4oLUMzWujWBCT4mf9AN7jAb0suXmyMFBqdBKOTHnyoxT2MuJgz+7rpYgVrtlTE2IUtbtEjoQR2nSKC5HWC1oQefazk+jweskK24nnjMjT3h54oucVPYpRcCplbJc0lNxlZBSzwp54uuCXPaAhFvCRIOCEz4tyCzbpGFNyQpcUEB11elpntAJJlzxbcc8tgSkouuoGJCmFo2ZTnvWsMVXPh3qoiVDZpeWAvvOhFs7b65uBoI76SiGBFcC9py5tfbp2aGJgE8OVXHFu5ChnCjUsAoi2FiF9Kr0a+r7kEikKjHH7XdGrb0ydi0mJgA18PtRRj7D0LVXmunNIbrtLV2BvmqKkgJXAtJg/xvrkG3NCivr70sWA4gtV4wgJ4C9jat8vFBysSKfuq9i1mf955F9w6fw+JSxNLmjXkHI2w8733ga3f4EsS2TmNQcfp045bGz/wmmz6MFopGFgpdhEllw0UuPqjaMVsjUUWuborxG5sJioff/JpoYDNXtVyu2Bb2DvHI7R/tvRrTcZn1PQVkCGJFN0lV6ny1iXdEznfq0SUe+ugVU0ce/Xz9t2ylD1Dr5/nq7ERiFd90c5NzEKcscmVi89mdHnHTvvSa4B2cvm+MVlbmdNXHdy27QlOTI/R36ixPShfd27Tb779jjwq5gjVH7JPw6v7+fuFOyAsLnduTFL2Q6PH8eNP434uO+sWB/+y9dffGr0cKxetWPD7H3/+9fc/O3f9u3vPsP8q9/8HzP6OB3vhC0UAAAAASUVORK5CYII="/>
+  <path id="Эллипс_5" data-name="Эллипс 5" class="cls-1" d="M462.916,748.634a9.9,9.9,0,1,1-9.928,9.9A9.915,9.915,0,0,1,462.916,748.634Z" transform="translate(-412.39 -712.39)"/>
+  <path id="Эллипс_6" data-name="Эллипс 6" class="cls-2" d="M463.6,750.287a2.609,2.609,0,1,1-2.618,2.609A2.613,2.613,0,0,1,463.6,750.287Z" transform="translate(-412.39 -712.39)"/>
+  <path id="Эллипс_7" data-name="Эллипс 7" class="cls-3" d="M466.5,754.958c1.146,0,1.1.368,1.967,0.991,1.313,0.95,1.522,7.733-1.692,8.913-3.95,1.452-4.466-1.355-5.512,0-0.932,1.208-.063,1.651-1.654,1.651-1.665,0-.548-2.839,0-3.852,1.049-1.939,2.778-.452,3.859-1.1,0.86-.515.551-1.383,0.551-1.926,0-.47-1.765-0.734-2.205-0.825-2.189-.455-2.263-2.176-1.654-2.477,0.771-.38,2.081.684,3.584,0.55C464.415,756.824,465.778,754.958,466.5,754.958Z" transform="translate(-412.39 -712.39)"/>
+  <path id="Фигура_13" data-name="Фигура 13" class="cls-3" d="M452.991,759.635l-0.276-1.1s2.4-1.695,3.584-1.1c1.669,0.835-1.243,4.945-.276,5.227,1.128,0.33,1.744-2.919,4.134-3.026,2-.089,3.975,1.805,3.975,1.805l-0.232.792a4.257,4.257,0,0,0-3.743-1.772c-1.471,0-1.873,3.622-4.685,2.752-1.5-.465,1.077-4.719.275-4.953C454.531,757.9,452.991,759.635,452.991,759.635Zm21.093-.549a0.689,0.689,0,1,1-.689.689A0.689,0.689,0,0,1,474.084,759.086Z" transform="translate(-412.39 -712.39)"/>
+  <g id="стрелки">
+    <path id="Эллипс_8" data-name="Эллипс 8" class="cls-4" d="M419.413,750.008a32.39,32.39,0,0,1,64.675,0m-0.023,3.954a32.391,32.391,0,0,1-64.629-.012" transform="translate(-412.39 -712.39)"/>
+    <path id="Многоугольник_2" data-name="Многоугольник 2" class="cls-5" d="M425.018,757.326l-7.32.576,3.16-6.615Zm57.741-4.448-4.192-6.017,7.316-.616Z" transform="translate(-412.39 -712.39)"/>
+  </g>
+  <circle id="_8" data-name="8" class="cls-6" cx="39.11" cy="39.11" r="38.5"/>
+</svg>
