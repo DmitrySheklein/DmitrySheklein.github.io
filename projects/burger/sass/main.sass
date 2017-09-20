@@ -1,0 +1,127 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+@import "_mixins/main-mixins"
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+	opacity: 1
+
+img
+	display: block
+	max-width: 100%
+	height: auto
+ul
+ +list(full)
+=container()
+    max-width: 960px
+    padding-left: 15px
+    padding-right: 15px
+    margin: 0 auto	
+.container
+	+container
+	+clearfix
+a
+	color: $link
+	text-decoration: none
+.btn
+	display: inline-block
+	vertical-align: middle
+	padding: 0 14px
+	font-family: ubuntu-medium,Arial, Helvetica, sans-serif
+	font-size: 13px
+	line-height: 35px
+	color: #fff
+	background: $btn
+	text-transform: uppercase
+	text-decoration: none
+	border: none
+	border-radius: 5px
+	transition: backround .2s ease-out
+	cursor: pointer
+	&:hover
+		background: darken($btn,10)
+		text-decoration: none
+	&--clear
+		background: rgba(#fff,0)
+		&:hover
+			background: rgba(#fff,0)
+			box-shadow: 0 0 4px 0px $btn
+	&--black
+		background: $btn-dark
+		&:hover
+			background: darken($btn-dark,5)
+.section
+	overflow: hidden
+	+max-w(480)		
+		height: auto
+		position: relative
+		&__wrapper
+			position: static!important
+			transform: none!important
+		&.reviews,&.map
+			height: 100vh
+.section__wrapper
+	width: 100%
+.section-title
+	font-family: gagalin,Arial,sasn-serif
+	font-size: 72px
+	line-height: 1.3
+	color: $section-title
+	+max-width(768)
+		font-size: 52px
+	+max-width(480)
+		font-size: 32px
+	&--black
+		color: #2f3234
+	&--white
+		color: #fff
+@import "_parts/header"
+@import "_parts/best"
+@import "_parts/products"
+@import "_parts/team"
+@import "_parts/menu"
+@import "_parts/reviews"
+@import "_parts/order"
+@import "_parts/map"
+@import "media" // Всегда в конце

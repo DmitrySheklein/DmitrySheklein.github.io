@@ -1,0 +1,42 @@
+.best
+    background-color: #fff
+    background-image: url('../img/bg/best_bg.jpg')
+    background-repeat: no-repeat
+    background-position: 50%
+    background-size: cover
+    color: #2f3234
+    +max-w(480)
+        padding: 5% 0
+    .best__wrapper
+        +center(y)
+    &-title
+        text-align: center
+        margin-bottom: 70px
+        +max-w(480)
+            margin-top: 0
+            margin-bottom: 20px
+.best__list
+    display: flex
+    flex-wrap: wrap
+.best__item
+    //width: 33.3%
+    display: flex
+    flex-direction: column
+    +max-width(768)
+        width: 100%
+.best
+    &__img
+        max-width: 100px
+        margin: auto
+        text-align: center
+        img
+            margin: auto
+    &__name
+        font-family: lifehack
+        font-size: 24px
+        line-height: 1.3
+        margin-bottom: 10px
+        text-align: center
+    &__descr
+        font-family: ubuntu
+        font-size: 14px

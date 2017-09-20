@@ -1,0 +1,58 @@
+.yandex-map
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 60px
+    +max-w(480px)
+        bottom: 100px
+.footer
+    background: #000 url('../img/bg/footer_bg.jpg') repeat 50%
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    height: 60px
+    +max-w(480)
+        height: 100px
+    &__left
+        float: left
+    &__right
+        float: right
+        padding-top: 18px
+        +max-w(480)
+            padding-top: 0        
+    &__left,&__right
+        +max-w(480)
+            float: none
+            width: 100%
+    &__addr,&__phone
+        font-size: 14px
+        line-height: 24px
+        font-family: ubuntu
+    &__addr        
+        color: #fff
+    padding-top: 10px
+    &__phone
+        &-link
+            color: $btn
+            img
+                display: inline-block
+                margin-right: 5px
+.social
+    +list(full)
+    +max-w(480)
+        text-align: center
+    &__item
+        display: inline-block
+        vertical-align: middle
+        font-size: 0
+        img
+            width: 20px
+            height: 20px
+            margin-right: 5px
+            opacity: .3
+            transition: all .3s ease
+        &:hover
+            img
+                opacity: 1

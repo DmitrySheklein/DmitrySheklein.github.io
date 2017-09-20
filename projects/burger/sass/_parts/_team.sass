@@ -1,0 +1,91 @@
+.team
+	position: relative
+	background: $dark url("../img/bg/team_bg.jpg") no-repeat center
+	background-size: cover
+	+max-w(480)
+		background-position: center top
+		background-attachment: fixed	
+	&__wrapper
+		position: absolute
+		right: 0
+		width: calc(50% - 10px)
+		height: 100%
+		background: rgba(#2f3234,.93)
+		+max-w(768)
+			width: 100%
+			position: static
+	&__block
+		+center(y)
+		padding-left: 80px
+		+max-w(768)
+			left: 50%
+			transform: translate(-50%,-50%)
+			padding-left: 0
+		+max-w(480)
+			padding: 5% 0
+			position: static
+			transform: none
+	&__title
+		margin-bottom: 80px
+		+max-w(768)
+			text-align: center
+		+max-w(480)
+			margin-bottom: 15px
+.team__accord
+	+max-w(768)
+		text-align: center
+	&-item
+		margin-bottom: 30px
+	&-link
+		color: $section-title
+		font-family: Gagalin
+		font-size: 14px
+		font-weight: 400
+		line-height: 28px
+		color: #fff
+		&:hover
+			color: $section-title
+		&:before
+			content: ''
+			display: inline-block
+			vertical-align: middle
+			margin-right: 10px
+			+arr(9,6, $section-title, b)
+		&.active:before
+			+arr(9,6, $section-title, t)
+			animation: rotate .2s
+@keyframes rotate
+	from
+		transform: rotate(0)
+	to
+		transform: rotate(-180deg)
+.team__accord
+	&-info
+		+clearfix
+		padding-top: 17px
+		display: none
+	&-pic
+		float: left
+		width: 100px
+		height: 100px
+		margin: 0 17px
+		border-radius: 50%
+		overflow: hidden
+		img
+			max-width: 100%
+			max-height: 100%
+		+max-w(768)
+			float: none
+			margin: auto	
+	&-info-content
+		float: left
+		color: #ffffff
+		font-family: Ubuntu
+		font-size: 14px
+	&-info-head
+		font-weight: 700
+		margin-bottom: 10px
+	&-text
+		font-weight: 300
+		text-align: left
+		padding: 0 5px

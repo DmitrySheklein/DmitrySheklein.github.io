@@ -1,0 +1,113 @@
+// Media
+=min-width($size)
+    @media only screen and (min-width :$size + px)
+        @content
+=max-width($size)
+    @media only screen and (max-width :$size + px)
+        @content
+=min-w($size)
+    @media only screen and (min-width :$size + px)
+        @content
+=max-w($size)
+    @media only screen and (max-width :$size + px)
+        @content		
+=justify
+	text-align: justify
+	line-height: 0
+	font-size: 0
+	text-justify: newspaper
+	zoom: 1
+	text-align-last: justify
+	&:after
+		content: ""
+		display: inline-block
+		width: 100%
+		height: 0px
+		visibility: hidden
+		overflow: hidden
+// absolute align
+=center($duration)
+	@if $duration == y
+		position: absolute
+		top: 50%
+		transform: translateY(-50%)
+	@if $duration == both
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-50%)		
+//triangle
+=arr($width, $height, $bg, $direction)
+	width: 0px
+	height: 0px
+	border-style: solid
+	@if $direction == t
+		border-width: 0 $width / 2 + px $height + px $width / 2 + px
+		border-color: transparent transparent $bg transparent
+	@if $direction == r
+		border-width: $height / 2 + px 0 $height / 2 + px $width + px
+		border-color: transparent transparent transparent $bg
+	@if $direction == b
+		border-width: $height + px $width / 2 + px 0 $width / 2 + px
+		border-color: $bg transparent transparent transparent
+	@if $direction == l
+		border-width: $height / 2 + px $width + px $height / 2 + px 0
+		border-color: transparent $bg transparent transparent
+	@if $direction == tl
+		border-width: $height + px $width + px 0 0
+		border-color: $bg transparent transparent transparent
+	@if $direction == tr
+		border-width: 0 $width + px $height + px 0
+		border-color: transparent $bg transparent transparent
+	@if $direction == br
+		border-width: 0 0 $height + px $width + px
+		border-color: transparent transparent $bg transparent
+	@if $direction == bl
+		border-width: $height + px 0 0 $width + px
+		border-color: transparent transparent transparent $bg
+// ROTATE
+=rotate($deg: 0, $m11: 0, $m12: 0, $m21: 0, $m22: 0)
+	transform: rotate($deg + deg)
+	filter: progid:DXImageTransform.Microsoft.Matrix(M11=$m11, M12=$m12,M21=$m21, M22=$m22, sizingMethod='auto expand')
+	zoom: 1
+=list($full)
+	list-style: none
+	@if $full == full
+		margin: 0
+		padding: 0
+//Btn clear	
+=btnclr
+	border: none
+	padding: 0
+	background: none
+=clearfix()
+    &::after
+        display: block
+        content: ""
+        clear: both			
+=coverdiv
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+//img
+=svg($name, $width, $height)
+	background: url("../img/icons/#{$name}.svg") no-repeat 0 0
+	//background-image: inline-image('icons/svg/'+$sprite+'.svg','image/svg'); // to switches sprites to base64, elegant
+	background-size: #{$width}px #{$height}px
+	width: #{$width}px
+	height: #{$height}px
+
+=png($name)    
+	background: url("../img/icons/#{$name}.png") no-repeat 0 0
+	//background-image: inline-image("#{$name}.png",'image/png')
+	+image-size("img/#{$name}.png")
+=jpg($name)
+	background: url("../img/#{$name}.jpg") no-repeat 0 0
+	//background-image: inline-image("#{$name}.jpg",'image/jpg')
+	+image-size("img/#{$name}.jpg")	
+// sized sprites
+=image-size($path)
+	width: image-width($path)
+	height: image-height($path)	

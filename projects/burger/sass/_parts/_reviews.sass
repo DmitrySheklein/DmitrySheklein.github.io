@@ -1,0 +1,51 @@
+.reviews
+    background: #000
+    min-height: 650px
+    &__list
+        +clearfix
+        +list(full)
+        height: 100%
+    &__item
+        float: left
+        width: 25%
+        height: 50%
+        +max-w(992)
+            width: 50%
+            height: 25%
+.review
+    position: relative
+    width: 100%
+    height: 100%
+    &:hover
+        .review__content
+            opacity: 1
+            transform: scale(1)
+    &__pic
+        +coverdiv
+        background-size: cover
+        background-position: 50%
+        filter: grayscale(100%)
+    &__content
+        transform: scale(0.9)
+        opacity: 0
+        +coverdiv
+        padding: 16% 8%
+        background: rgba(#2f3234, .83)
+        transition: all .2s ease
+        +max-w(992)
+            text-align: center        
+    &__name
+        font-family: Gagalin
+        font-size: 14px
+        font-weight: 400
+        line-height: 28px
+        margin-bottom: 15px
+    &__text
+        color: #ffffff
+        font-family: Ubuntu
+        font-size: 14px
+        font-weight: 300
+        line-height: 24px
+        margin-bottom: 17px
+        +max-w(992)
+            display: none
