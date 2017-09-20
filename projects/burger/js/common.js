@@ -1,5 +1,4 @@
 $(function() {
-
 	// Custom JS
 	$("#fullpage").fullpage({
 		responsiveWidth: 768,
@@ -147,3 +146,6 @@ $(function() {
 
 
 });
+$(window).on('load', function(){
+	$('.preloader').delay(10).fadeOut('slow');
+  })

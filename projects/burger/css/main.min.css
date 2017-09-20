@@ -684,6 +684,52 @@ a {
   .section-title--white {
     color: #fff; }
 
+.preloader {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  background: #3c3c3c; }
+  .preloader > img {
+    display: inline-block;
+    max-width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    -webkit-animation: pulse 1s ease-in-out 0.5s infinite;
+            animation: pulse 1s ease-in-out 0.5s infinite; }
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1); }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+            transform: scale3d(1.05, 1.05, 1.05); }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1); } }
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1); }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+            transform: scale3d(1.05, 1.05, 1.05); }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1); } }
+
+.pulse {
+  -webkit-animation-name: pulse;
+          animation-name: pulse; }
+
 .fixed-menu {
   z-index: 1;
   position: fixed;
@@ -868,18 +914,18 @@ a {
       display: block;
       float: none;
       margin: auto; } }
-  @media only screen and (max-width: 992px) {
-    .header-content__title {
-      margin: 0 0 20px; } }
-  @media only screen and (max-width: 480px) {
-    .header-content__title {
-      margin: 0; } }
+  .header-content__title {
+    margin: 0 0 20px; }
+    @media only screen and (max-width: 480px) {
+      .header-content__title {
+        margin: 0; } }
   .header-content__descr {
     font-size: 63px;
     line-height: 60px;
     font-family: lifehack;
     text-transform: lowercase;
-    color: #fff; }
+    color: #fff;
+    margin: 0 0 20px; }
     @media only screen and (max-width: 992px) {
       .header-content__descr {
         margin: 0; } }
