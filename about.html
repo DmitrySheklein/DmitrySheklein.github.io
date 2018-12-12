@@ -22,9 +22,11 @@
     <meta name="msapplication-navbutton-color" content="#00bfa5">
     <!-- iOS Safari-->
     <meta name="apple-mobile-web-app-status-bar-style" content="#00bfa5">
-    <script src="assets/js/foundation.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/js/app.js" defer></script><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.3/jquery.fancybox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.3/jquery.fancybox.min.js"></script>
   </head>
   <body>
     <nav class="main-menu">
@@ -69,10 +71,16 @@
             <div class="user-about__picture"><img src="assets/img/avatar.jpg" width="320px"></div>
             <div class="user-about__title title subtitle">Кто я</div>
             <div class="user-about__text">
-              Я веб разработчик из Нижнего Новгорода. Мне 22 года.
+              Я веб разработчик из Нижнего Новгорода. Мне 23 года.
               Этот сайт я сделал в рамках обучения в Школе онлайн образования LoftSchool.
             </div>
-            <div class="about-documents"><img class="document-item zoom-image" src="assets/img/html-css.jpg"><img class="document-item zoom-image" src="assets/img/html-js.jpg"><img class="document-item zoom-image" src="assets/img/loft.jpg"></div>
+            <div class="about-documents">
+              <a href="assets/img/html-css.png" data-fancybox="gallery"><img class="document-item zoom-image" src="assets/img/html-css.png"></a>
+              <a href="assets/img/loft.jpg" data-fancybox="gallery"><img class="document-item zoom-image" src="assets/img/loft.jpg"></a>
+              <a href="assets/img/html-css-2.png" data-fancybox="gallery"><img class="document-item zoom-image" src="assets/img/html-css-2.png"></a>
+              <a href="assets/img/html-js.png" data-fancybox="gallery"><img class="document-item zoom-image" src="assets/img/html-js.png"></a>
+              <a href="assets/img/loft-js.png" data-fancybox="gallery"><img class="document-item zoom-image" src="assets/img/loft-js.png"></a>
+            </div>
           </div>
         </div>
         <div class="about__right">
@@ -124,7 +132,7 @@
                           <svg class="g-circles skillsvg" width="130" height="130" stroke-width="12" fill="transparent">
                             <circle r="50" cx="65" cy="65" stroke="#ccc" fill="none"></circle>
                             <g class="group">
-                              <circle class="sector" stroke-dasharray="314" stroke-dashoffset="204.1" r="50" cx="65" cy="65" stroke="#00bfa5" transform="rotate(-90 65 65)"></circle>
+                              <circle class="sector" stroke-dasharray="380" stroke-dashoffset="204.1" r="50" cx="65" cy="65" stroke="#00bfa5" transform="rotate(-90 65 65)"></circle>
                             </g>
                             <text class="diagram__text" text-anchor="middle" fill="#00bfa5" x="50%" y="55%">JavaScript</text>
                           </svg>
@@ -135,7 +143,7 @@
                           <svg class="g-circles skillsvg" width="130" height="130" stroke-width="12" fill="transparent">
                             <circle r="50" cx="65" cy="65" stroke="#ccc" fill="none"></circle>
                             <g class="group">
-                              <circle class="sector" stroke-dasharray="314" stroke-dashoffset="188.4" r="50" cx="65" cy="65" stroke="#00bfa5" transform="rotate(-90 65 65)"></circle>
+                              <circle class="sector" stroke-dasharray="420" stroke-dashoffset="188.4" r="50" cx="65" cy="65" stroke="#00bfa5" transform="rotate(-90 65 65)"></circle>
                             </g>
                             <text class="diagram__text" text-anchor="middle" fill="#00bfa5" x="50%" y="55%">jQuery</text>
                           </svg>

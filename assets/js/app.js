@@ -341,13 +341,6 @@ function animateText (mainBlock, blockText){
         }
       })
   }
-  /*
-  Zoom image
-  */
-  	  $('.zoom-image').hover(function() {	    
-      $(this).siblings('.zoom-image').css('z-index', 10);
-      $(this).css('z-index', 99);
-	  })
 
 
 })();

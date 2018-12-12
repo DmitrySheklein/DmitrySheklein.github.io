@@ -1140,38 +1140,20 @@ button {
   display: inline-block;
   vertical-align: middle; }
 
-.zoom-image {
-  opacity: 1;
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
-  transition: all 500ms linear;
-  position: relative;
-  width: 250px;
-  max-width: 150px;
-  display: inline-block;
-  vertical-align: middle;
-  z-index: 1;
+.about-documents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.about-documents > a {
   margin: 10px;
-  cursor: pointer; }
-  @media screen and (max-width: 768px) {
-    .zoom-image {
-      max-width: 200px; } }
-  @media screen and (max-width: 480px) {
-    .zoom-image {
-      max-width: 250px; } }
-  .zoom-image:hover {
-    transition: all 200ms linear;
-    -webkit-transform: scale(2);
-        -ms-transform: scale(2);
-            transform: scale(2);
-    opacity: 1;
-    z-index: 99; }
-    @media screen and (max-width: 768px) {
-      .zoom-image:hover {
-        -webkit-transform: none;
-            -ms-transform: none;
-                transform: none; } }
+}
+.zoom-image {
+  position: relative;
+  width: 155px;
+  height: 220px;
+  display: inline-block;
+  vertical-align: middle; }
 
 .timeline__item {
   text-align: left; }
